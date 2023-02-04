@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  display: flex;
+  margin: 1rem ;
+}
+.card1{
+  margin: 1rem;
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  box-shadow: 3px 3px 3px black;
+  color:brown ;
+  display: flex;
+  justify-content: center;
+}
+
+.card-content{
+  height: 80%;
+  margin: 1rem;
+  padding:5rem auto ;
+  
+}
+img{
+  width: 95%;
+  height: 17rem;
+  margin: auto;
+}
+.product{
+margin-top: 1rem;
+}
+
+.crossBar{
+  top: 3rem;
+  width: 98vw;
+  height: 40vh;
+  background-color: rgb(50, 50, 59);
+  padding-top:6rem;
+  margin: 3rem auto;
+}
+.crossBar>h1{
+  color: whitesmoke;
+ 
+ 
+}
+.slogan{
+  display: block;
+  color: whitesmoke;
+}
+.nav-div{
+  border: 1px solid black;
+  width: 98vw;
+  height: 3rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  position: sticky;
+  display: block;
+  top: 0;
+  padding: 0.5rem;
+  background-color: rgb(118, 113, 122);
+}
+.list{
+  
+  list-style-type:none;
+  display: inline-block;
+  float: left;
+}
+.list>li{
+  margin-left: 1rem;
+  list-style-type:none;
+  display: inline-block;  
+}
+.cart{
+  float:right ;
+  list-style-type:none;
+  padding: 0.2rem 0.3rem;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 0.2rem;
+}
